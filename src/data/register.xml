@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<quality_register>
+    <journals>
+        <journal>
+            <diagnos>
+                <diagnos_date>2022-05-30T09:00:00</diagnos_date>
+                <diagnos_background>Klinisk undersökning</diagnos_background>
+                <patient>
+                    <first_name>John</first_name>
+                    <last_name>Holmsund</last_name>
+                    <age>56</age>
+                </patient>
+                <diseases>
+                    <disease>
+                        <title>Levercancer</title>
+                        <description>Flera cancertumörer i levern</description>
+                    </disease>
+                </diseases>
+            </diagnos>
+            <treatments>
+                <treatment>
+                    <title>Behandling</title>
+                </treatment>
+                <treatment>
+                    <title>kirurgi</title>
+                    <operation_codes>
+                        <operation_code>
+                            <chapter>M</chapter>
+                            <category>01</category>
+                            <sub_category>5</sub_category>
+                            <depth_code_national></depth_code_national>
+                            <depth_code_who>3</depth_code_who>
+                        </operation_code>
+                    </operation_codes>
+                </treatment>
+            </treatments>
+            <patient_health></patient_health>
+        </journal>
+    </journals>
+</quality_register>
