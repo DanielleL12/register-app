@@ -1,6 +1,6 @@
 import { IOperationCodeProps } from "./OperationCode";
 
 export interface ITreatmentProps {
-    title: string,
+    treatment_title: string,
     operation_codes?: IOperationCodeProps[],
 }

@@ -5,5 +5,5 @@ export interface IDiagnosticProps {
     patient: IPatientProps,
     diaseases: IDiseaseProps[],
     diagnostic_date: Date  | undefined,
-    diagnostic_background: string,
+    diagnostic_ecog: number,
 }
